@@ -7,7 +7,7 @@ import RPi.GPIO as GPIO
 import json
 import time
 
-ledPins = [16 20 21]
+ledPins = [16, 20, 21]
 pwmobjects = [led1 led2 led3]
 
 gpio.setmode(GPIO.BCM)
