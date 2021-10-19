@@ -9,7 +9,7 @@ data = cgi.FieldStorage()
 s1 = data.getvalue('slider1')
 button = data.getvalue('button')
 
-leds[button-1] = s1
+leds[button] = s1
 
 ledjson = {"green":leds[0], "blue":leds[1], "red":leds[2]}
 
