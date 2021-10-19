@@ -2,7 +2,8 @@
 import cgi
 import json
 
-leds = [green blue red]
+#green blue red
+leds = []
 for i in range(2):
   leds[i] = 0
 
