@@ -3,9 +3,7 @@ import cgi
 import json
 
 #green blue red
-leds = []
-for i in range(2):
-  leds[i] = 0
+leds = [0 0 0]
 
 data = cgi.FieldStorage()
 s1 = data.getvalue('slider1')
